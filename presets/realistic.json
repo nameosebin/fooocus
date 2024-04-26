@@ -5,8 +5,8 @@
     "default_loras": [
         [
             true,
-            "SDXL_FILM_PHOTOGRAPHY_STYLE_BetaV0.4.safetensors",
-            0.25
+            "nudify_xl_lite.safetensors",
+            0.80
         ],
         [
             true,
@@ -34,14 +34,14 @@
     "default_sampler": "dpmpp_2m_sde_gpu",
     "default_scheduler": "karras",
     "default_performance": "Speed",
-    "default_prompt": "",
-    "default_prompt_negative": "unrealistic, saturated, high contrast, big nose, painting, drawing, sketch, cartoon, anime, manga, render, CG, 3d, watermark, signature, label",
+    "default_prompt": "1girl, nude, perfect breasts, perfect vagina, perfect legs, perfect hips",
+    "default_prompt_negative": "underwear, panty, public hair, unrealistic, saturated, high contrast, big nose, painting, drawing, sketch, cartoon, anime, manga, render, CG, 3d, watermark, signature, label",
     "default_styles": [
         "Fooocus V2",
         "Fooocus Photograph",
         "Fooocus Negative"
     ],
-    "default_aspect_ratio": "896*1152",
+    "default_aspect_ratio": "1024*1024",
     "checkpoint_downloads": {
         "realisticStockPhoto_v20.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/realisticStockPhoto_v20.safetensors"
     },
