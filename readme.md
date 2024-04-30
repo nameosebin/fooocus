@@ -4,7 +4,7 @@
 
 
 ```
-git clone https://github.com/lllyasviel/Fooocus.git
+git clone https://github.com/nameosebin/fooocus/
 cd Fooocus
 python3 -m venv fooocus_env
 source fooocus_env/bin/activate
